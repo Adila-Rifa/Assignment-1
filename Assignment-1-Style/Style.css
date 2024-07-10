@@ -188,6 +188,11 @@
   border-radius: 16px;
   background-color: rgba(255, 223, 0, 0.05);
 }
+.ankor{
+ color:black;
+ font-weight:700;
+ font-size: 16px;
+}
 /* Support Section */
 .Support {
     background-image: url("../assets/handshake.jpg");
@@ -228,4 +233,8 @@
 .footer-part{
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    width:1440px;
+    height: 100px;
+    text-align: left;
 }
