@@ -161,7 +161,6 @@
   width: 364px;
   height: 299px;
   background-color: rgba(255, 76, 30, 0.05);
-
 }
 .text-1 {
   text-align: left;
@@ -170,39 +169,63 @@
   width: 56px;
   height: 56px;
 }
-.Big-dibba{
-    display: flex;
+.Big-dibba {
+  display: flex;
 }
-.dibba-2{
-    margin: 48px 24px;
-    padding: 40px;
-    width: 364px;
-    height: 299px;
-    border-radius: 16px;
-    background-color:rgba(0, 76, 232, 0.05);
-  }
-.dibba-3{
-    margin: 48px 24px;
-    padding: 40px;
-    width: 364px;
-    height: 299px;
-    border-radius:16px;
-    background-color: rgba(255, 223, 0, 0.05);
-
-  }
+.dibba-2 {
+  margin: 48px 24px;
+  padding: 40px;
+  width: 364px;
+  height: 299px;
+  border-radius: 16px;
+  background-color: rgba(0, 76, 232, 0.05);
+}
+.dibba-3 {
+  margin: 48px 24px;
+  padding: 40px;
+  width: 364px;
+  height: 299px;
+  border-radius: 16px;
+  background-color: rgba(255, 223, 0, 0.05);
+}
 /* Support Section */
-.Support{
-    
+.Support {
+    background-image: url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    padding:64px 48px;
+    margin:64px 150px 79px;
+    border-radius:16px;
+    background-color: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
 }
-.support-heading{
-    font-weight: 700;
-    font-size: 32px;
+.support-heading {
+  font-weight: 700;
+  font-size: 32px;
+  
 }
-.input-area{
+.input-area {
+  display: flex;
+  margin: 10px 300px;
+}
+.input-text {
+  width: 548px;
+  height: 57px;
+  padding: 19px 20px;
+  margin-right: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+.submit {
+  width: 120px;
+  height: 58px;
+  padding: 17px 20px;
+  font-weight: 600;
+  font-size: 20px;
+   border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+.footer-part{
     display: flex;
-}
-.input-text{
-    width: 548px;
-    height: 57px;
-    padding: 19px 20px;
+    justify-content: space-between;
 }
